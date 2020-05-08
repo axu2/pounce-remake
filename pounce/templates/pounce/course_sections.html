@@ -1,0 +1,18 @@
+{% extends "pounce/base.html" %}
+
+{% block content %}
+
+    <p>{{ course.subject }} {{ course.number }}</p>
+
+    {% if section_list %}
+        <ul>
+        {% for section in section_list %}
+            <li><a href="/{{ course.subject }}/{{ course.number }}/{{ section.name }}">{{ section.name }}</a></li>
+        {% endfor %}
+        </ul>
+    {% else %}
+        <p>No sections.</p>
+    {% endif %}
+
+{% endblock %}
+
