@@ -5,7 +5,7 @@ from .models import Course, Section, Subscription
 
 class SectionInline(admin.StackedInline):
     model = Section
-    extra = 2
+    extra = 0
 
 
 class CourseAdmin(admin.ModelAdmin):
