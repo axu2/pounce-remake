@@ -1,0 +1,16 @@
+{% extends "pounce/base.html" %}
+
+{% block content %}
+
+    <h1>Subsribe to {{section.course.subject}} {{section.course.number}} {{section.name}}?</h1>
+
+    <form action="/{{section.course.subject}}/{{section.course.number}}/{{section.name}}" method="post">
+        {% csrf_token %}
+        {{ form }}
+        <input type="submit" value="Submit">
+    </form>
+
+    TODO: phone support
+
+{% endblock %}
+
