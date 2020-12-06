@@ -1,7 +1,7 @@
 # pounce
  Princeton Pounce Remake
  
- Looking for developers!
+ Looking for developers! Basically only scraping the course offerings API is implemented and basic forms.
  
  Don't know Django? Just do the tutorial: https://www.djangoproject.com/
  
