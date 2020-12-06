@@ -3,6 +3,8 @@
  
  Looking for developers!
  
+ Don't know Django? Just do the tutorial: https://www.djangoproject.com/
+ 
  ![](screenshots/1.png)
  ![](screenshots/2.png)
  ![](screenshots/3.png)
